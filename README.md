@@ -28,14 +28,14 @@
   
 	Requires GNU GCC, GNU make / GCC mingw32-make
   
-	src link : https://github.com/4weKromi/ConsoleTrigoC/tree/master/source
+	source link : [src](https://github.com/4weKromi/ConsoleTrigoC/tree/master/source)
 	
 	/>make -f makefile.gcc
 	/>mingw32-make -f makefile.gcc
 
 	or pre-build binaries:
   
-	link : https://github.com/4weKromi/ConsoleTrigoC/tree/master/bin
+	Download : [win_x86_zip](https://github.com/4weKromi/ConsoleTrigoC/tree/master/bin)
 
 
 
