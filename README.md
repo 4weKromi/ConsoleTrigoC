@@ -29,7 +29,7 @@ Source link : [src](https://github.com/4weKromi/ConsoleTrigoC/tree/master/source
 
 ### Pre-Build binaries:
   
-Download : [win_x86_zip](https://github.com/4weKromi/ConsoleTrigoC/tree/master/bin)
+Download : [ConsoleTrigoC_win_x86_zip](https://github.com/4weKromi/ConsoleTrigoC/files/1910344/ConsoleTrigoC_x86.zip)
 
 ---
 
