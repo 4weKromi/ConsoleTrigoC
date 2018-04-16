@@ -24,8 +24,8 @@
 + GNU make/GCC mingw32-make
 
 Source link : [src](https://github.com/4weKromi/ConsoleTrigoC/tree/master/source)	
-###### cmd/>make -f makefile.gcc
-###### cmd/>mingw32-make -f makefile.gcc
+###### i. cmd/>make32-make
+###### ii. cmd/>mingw32-make clean
 
 ### Pre-Build binaries:
   
