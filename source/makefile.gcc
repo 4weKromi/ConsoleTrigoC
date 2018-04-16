@@ -1,8 +1,0 @@
-# makefile for ConsoleTrigoC
-CC = gcc
-ver=c11
-build:
-	$(CC) -Wall -c diag.c solve.c main.c -std=$(ver)
-	$(CC) -s diag.o main.o solve.o -o ConsoleTrigoC.exe
-clean:
-	-rm -f *.o
