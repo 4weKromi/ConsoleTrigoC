@@ -2,11 +2,13 @@
 appName = ConsoleTrigoC.exe
 CC = gcc
 ver = c11
+heads = mainhead.h
 objects = diag.o main.o solve.o
-src = diag.c solve.c main.c
+srcs = diag.c solve.c main.c
 
 build:
-	$(CC) -Wall -c $(src) -std=$(ver)
+	$(CC) -Wall -c $(srcs) -std=$(ver)
 	$(CC) -s $(objects) -o $(appName)
 clean:
-	del $(objects)
+	del $(objects) $(srcs) $(heads)
+	del makefile
