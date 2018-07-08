@@ -1,32 +1,25 @@
 
 #include "mainhead.h"
 
-void display_line()
-{
+void display_line(){
 	printf("\n_____________________________\n");
 }
 
-void display_diag()
-{
+void display_diag(){
 	int i, j;
 	int deg_symbol=167;
 	printf("\n Trigonometry v0.1 [right-angled triangle]");
 	printf("\n\n\n\ta'");
-	for (i = 0; i < 21; i++)
-	{
+	for (i = 0; i < 21; i++){
 		if (i == 12)
 			printf(" A");
 		printf("\t");
-		for (j = i; j != 0; j--)
-		{
-			if (i == 5 && j == 3)
-			{
+		for (j = i; j != 0; j--){
+			if (i == 5 && j == 3){
 				printf("X%c", deg_symbol);
 				continue;
 			}
-
-			if (i == 18 && j == 4)
-			{
+			if (i == 18 && j == 4){
 				printf("Y%c", deg_symbol);
 				continue;
 			}
