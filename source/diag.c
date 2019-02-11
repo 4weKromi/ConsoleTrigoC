@@ -8,7 +8,7 @@ void display_line(){
 void display_diag(){
 	int i, j;
 	int deg_symbol=167;
-	printf("\n Trigonometry v0.1 [right-angled triangle]");
+	printf("\n Trigonometry v0.2 [right-angled triangle]");
 	printf("\n\n\n\ta'");
 	for (i = 0; i < 21; i++){
 		if (i == 12)
