@@ -31,8 +31,7 @@ int take_input(){
 			}
 			else{
 				printf("\n cannot be >= 90");
-				x_degr = 0;
-				y_degr = 0;
+				x_degr = 0;y_degr = 0;
 			}
 		}
 		else if (tri_var == 'y' || tri_var == 'Y'){
@@ -52,40 +51,40 @@ int take_input(){
 			}
 			else{
 				printf("\n cannot be 90 or greater");
-				y_degr = 0;
-				x_degr = 0;
+				y_degr = 0;x_degr = 0;
 			}
 		}
 		else if (tri_var == 'A' || tri_var == 'a' || tri_var == 'B' || tri_var == 'b' || tri_var == 'C' || tri_var == 'c'){
 			printf("\n Enter %c value : ", tri_var);
 			if (tri_var == 'A' || tri_var == 'a'){
 				scanf("%f", &side_ab);
-				if (((side_ab >= side_ac) || (side_bc >= side_ac)) && c_flag == 1){
+				if ((side_ab >= side_ac) && c_flag == 1){
 					printf("\n Point a' to c' is always greater. \n A value not stored");
-					side_ab = 0;
-					a_flag = 0;
+					side_ab = 0;a_flag = 0;
 				}
 				else
 					a_flag = 1;
 			}
 			else if (tri_var == 'B' || tri_var == 'b'){
 				scanf("%f", &side_bc);
-				if (((side_ab >= side_ac) || (side_bc >= side_ac)) && c_flag == 1){
+				if ((side_bc >= side_ac) && c_flag == 1){
 					printf("\n Point a' to c' is always greater. \n B value not stored");
-					side_bc = 0;
-					b_flag = 0;
+					side_bc = 0;b_flag = 0;
 				}
 				else
 					b_flag = 1;
 			}
 			else{
 				scanf("%f", &side_ac);
-				if ((side_ab >= side_ac) || (side_bc >= side_ac)){
+				if (side_ab >= side_ac){
 					printf("\n Point a' to c' is always greater. \n C value not stored");
-					side_ac = 0;
-					c_flag = 0;
+					side_ac = 0;c_flag = 0;
 				}
-				else
+				else if(side_bc >= side_ac){
+					printf("\n Point a' to c' is always greater. \n C value not stored");
+					side_ac = 0;c_flag = 0;
+				}
+				else					
 					c_flag = 1;
 			}
 		}
