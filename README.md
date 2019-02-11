@@ -2,7 +2,7 @@
 # ConsoleTrigoC
 
 ## Console Trigonometry in C
-### (v0.1)	
+### (v0.2)	
 	
 #### Note:
 - Right-angled Triangle Only
@@ -29,9 +29,10 @@ Source link : [src](https://github.com/4weKromi/ConsoleTrigoC/tree/master/source
 
 ### Pre-Build binaries:
   
-Download : [ConsoleTrigoC_win_x86_zip](https://github.com/4weKromi/ConsoleTrigoC/files/1910344/ConsoleTrigoC_x86.zip)
+To Download[Click Here](https://github.com/4weKromi/ConsoleTrigoC/releases)
 
 ---
 
 #### Log:
-###### 13-April-2018 (v0.1) 4wekromi 
+###### 13-Apr-2018 (v0.1) 4wekromi 
+###### 11-Feb-2019 (v0.2) 4wekromi 
