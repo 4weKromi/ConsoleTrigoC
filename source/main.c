@@ -1,4 +1,4 @@
-/* trigonometry v0.1 [right-angled triangle]
+/* trigonometry v0.2 [right-angled triangle]
 by 4weKromi */
 
 #include "mainhead.h"
