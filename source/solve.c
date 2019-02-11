@@ -9,7 +9,7 @@ int take_input(){
 	char tri_var;
 	int deg_symbol=167;
 	float x_degr, y_degr, x_rads, y_rads, res_rads, res_degr;
-	float side_ab, side_bc, side_ac;
+	float side_ab=0, side_bc=0, side_ac=0;
 	int deg_flag = 0, a_flag, b_flag, c_flag;
 	while (1){
 		printf("\n Enter variable ( A, B, C, X, Y) : ");
